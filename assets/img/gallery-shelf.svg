@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration einer Regalwand mit Tassen und Fundstücken">
+  <rect width="800" height="600" fill="#E7DAC2"/>
+  <g fill="#B98555" opacity=".16">
+    <g id="fl"><circle cx="0" cy="0" r="6"/><path d="M0-20 5-6 20-11 8 0 20 11 5 6 0 20-5 6-20 11-8 0-20-11-5-6z"/></g>
+    <use href="#fl" x="70" y="60"/><use href="#fl" x="400" y="46"/><use href="#fl" x="730" y="66"/>
+    <use href="#fl" x="150" y="300"/><use href="#fl" x="620" y="320"/>
+  </g>
+
+  <!-- shelves -->
+  <g>
+    <rect x="40" y="164" width="720" height="18" rx="6" fill="#8E643F"/>
+    <rect x="40" y="182" width="720" height="8" rx="4" fill="#6E4B30" opacity=".6"/>
+    <rect x="40" y="360" width="720" height="18" rx="6" fill="#8E643F"/>
+    <rect x="40" y="378" width="720" height="8" rx="4" fill="#6E4B30" opacity=".6"/>
+  </g>
+
+  <!-- top shelf items -->
+  <g>
+    <path d="M76 164v-56h66v56z" fill="#FBF8F2"/><path d="M142 118h14a14 14 0 0 1 0 28h-14z" fill="none" stroke="#FBF8F2" stroke-width="9"/>
+    <rect x="176" y="84" width="58" height="80" rx="8" fill="#C4664A"/>
+    <rect x="256" y="102" width="54" height="62" rx="8" fill="#A8B8B8"/>
+    <path d="M332 164v-72h64v72z" fill="#75806A"/>
+    <path d="M396 100h16a16 16 0 0 1 0 32h-16z" fill="none" stroke="#75806A" stroke-width="9"/>
+    <rect x="436" y="92" width="60" height="72" rx="8" fill="#FBF8F2"/><rect x="446" y="112" width="40" height="16" rx="6" fill="#D9A441"/>
+    <rect x="524" y="112" width="52" height="52" rx="8" fill="#D8A7A0"/>
+    <path d="M604 164v-64h62v64z" fill="#E4C79F"/>
+    <rect x="686" y="98" width="56" height="66" rx="8" fill="#4E7C7B"/>
+    <g fill="#6E4B30"><rect x="96" y="152" width="40" height="12" rx="6"/><rect x="352" y="152" width="40" height="12" rx="6"/><rect x="624" y="152" width="40" height="12" rx="6"/></g>
+  </g>
+
+  <!-- lower shelf items -->
+  <g>
+    <rect x="70" y="268" width="120" height="92" rx="10" fill="#FBF8F2"/>
+    <rect x="70" y="268" width="120" height="92" rx="10" fill="none" stroke="#D9CDB8" stroke-width="5"/>
+    <path d="M92 296h76M92 318h76M92 340h56" stroke="#B98555" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- books -->
+    <rect x="216" y="278" width="34" height="82" rx="5" fill="#C4664A"/>
+    <rect x="254" y="266" width="30" height="94" rx="5" fill="#75806A"/>
+    <rect x="288" y="286" width="34" height="74" rx="5" fill="#A8B8B8"/>
+    <rect x="326" y="272" width="28" height="88" rx="5" fill="#D9A441"/>
+    <path d="M224 300h18M262 292h14M296 308h18M334 296h12" stroke="#F4EFE6" stroke-width="5" opacity=".8"/>
+
+    <!-- little plant -->
+    <path d="M404 360h64l-8-56h-48z" fill="#C4664A"/>
+    <path d="M436 304c-24-40-18-76 8-104-6 42-2 74-8 104z" fill="#75806A"/>
+    <path d="M436 304c24-36 56-50 92-50-38 12-70 26-92 50z" fill="#8B9679"/>
+    <path d="M436 304c-34-30-70-34-104-22 40 4 76 10 104 22z" fill="#5F6B52"/>
+
+    <!-- clock -->
+    <circle cx="580" cy="316" r="46" fill="#FBF8F2" stroke="#49352B" stroke-width="8"/>
+    <path d="M580 288v32l24 14" stroke="#49352B" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <circle cx="580" cy="316" r="6" fill="#B98555"/>
+
+    <!-- jar of cookies -->
+    <rect x="660" y="264" width="92" height="96" rx="12" fill="#FBF8F2" fill-opacity=".85" stroke="#D9CDB8" stroke-width="5"/>
+    <rect x="654" y="246" width="104" height="26" rx="10" fill="#8E643F"/>
+    <g fill="#C79157"><circle cx="686" cy="316" r="16"/><circle cx="724" cy="332" r="15"/><circle cx="710" cy="292" r="14"/></g>
+    <g fill="#5B3A22"><circle cx="684" cy="312" r="4"/><circle cx="726" cy="330" r="4"/><circle cx="710" cy="288" r="4"/></g>
+  </g>
+
+  <!-- table edge with frame below -->
+  <rect y="470" width="800" height="130" fill="#B5895C"/>
+  <rect y="462" width="800" height="16" fill="#8E643F"/>
+  <g stroke="#93704C" stroke-width="4" opacity=".4"><path d="M0 530h800"/></g>
+  <g>
+    <ellipse cx="240" cy="500" rx="140" ry="26" fill="#E4D8C3"/>
+    <path d="M116 490c0 46 52 74 124 74s124-28 124-74z" fill="#FBF8F2"/>
+    <ellipse cx="240" cy="488" rx="124" ry="32" fill="#FBF8F2"/>
+    <ellipse cx="240" cy="490" rx="102" ry="24" fill="#8A5A34"/>
+    <path d="M364 476c52 0 78 24 78 50s-26 46-78 46" fill="none" stroke="#FBF8F2" stroke-width="28"/>
+  </g>
+  <rect x="520" y="474" width="220" height="70" rx="10" fill="#49352B"/>
+  <rect x="536" y="488" width="188" height="42" rx="6" fill="#F4EFE6"/>
+  <text x="630" y="519" text-anchor="middle" font-family="Segoe Script, cursive" font-size="30" fill="#49352B">Danke!</text>
+
+  <rect width="800" height="600" fill="#49352B" opacity=".05"/>
+</svg>

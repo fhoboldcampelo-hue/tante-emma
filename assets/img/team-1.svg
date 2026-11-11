@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Porträt-Illustration: Inhaberin Emma">
+  <defs>
+    <linearGradient id="p1-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFE2CB"/>
+      <stop offset="1" stop-color="#DCC9A9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#p1-bg)"/>
+  <circle cx="300" cy="290" r="196" fill="#FBF8F2" opacity=".55"/>
+  <g fill="#B98555" opacity=".22">
+    <circle cx="84" cy="96" r="26"/><circle cx="516" cy="120" r="26"/>
+    <circle cx="70" cy="510" r="24"/><circle cx="530" cy="496" r="24"/>
+  </g>
+
+  <!-- shoulders / body -->
+  <path d="M84 600c0-118 96-196 216-196s216 78 216 196z" fill="#75806A"/>
+  <path d="M228 404h144v56c0 30-32 52-72 52s-72-22-72-52z" fill="#E8C9A8"/>
+  <!-- apron -->
+  <path d="M240 470h120v130H240z" fill="#5F6B52"/>
+  <path d="M300 470l-46 40 14 90h-18v-70l50-44z" fill="#6E7B5F"/>
+  <path d="M300 470l46 40-14 90h18v-70l-50-44z" fill="#6E7B5F"/>
+  <path d="M252 512h96" stroke="#F4EFE6" stroke-width="6" opacity=".5"/>
+
+  <!-- neck & head -->
+  <path d="M300 264c-72 0-116 54-116 130 0 76 50 132 116 132s116-56 116-132c0-76-44-130-116-130z" fill="#E8C9A8"/>
+  <!-- hair -->
+  <path d="M182 372c-14-96 34-186 118-186s132 90 118 186c-8-46-30-72-58-86-30 22-74 34-134 34-16 18-30 34-44 52z" fill="#5B4034"/>
+  <path d="M186 366c-16 62-6 116 24 158-42-32-54-96-40-166z" fill="#5B4034"/>
+  <path d="M414 366c16 62 6 116-24 158 42-32 54-96 40-166z" fill="#5B4034"/>
+  <!-- ears -->
+  <circle cx="184" cy="404" r="22" fill="#E0BC9B"/>
+  <circle cx="416" cy="404" r="22" fill="#E0BC9B"/>
+  <!-- face -->
+  <g fill="#4A3A31">
+    <ellipse cx="258" cy="398" rx="12" ry="15"/><ellipse cx="342" cy="398" rx="12" ry="15"/>
+  </g>
+  <g stroke="#5B4034" stroke-width="9" fill="none" stroke-linecap="round">
+    <path d="M236 366c14-12 34-12 48 0M316 366c14-12 34-12 48 0"/>
+  </g>
+  <path d="M300 410v40c0 10-8 16-18 18" stroke="#D9AE8B" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M264 484c22 22 50 22 72 0" stroke="#B4654F" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <circle cx="230" cy="440" r="18" fill="#D8A7A0" opacity=".55"/>
+  <circle cx="370" cy="440" r="18" fill="#D8A7A0" opacity=".55"/>
+  <!-- earrings -->
+  <circle cx="184" cy="424" r="7" fill="#D9A441"/>
+  <circle cx="416" cy="424" r="7" fill="#D9A441"/>
+
+  <rect width="600" height="600" fill="#49352B" opacity=".05"/>
+</svg>

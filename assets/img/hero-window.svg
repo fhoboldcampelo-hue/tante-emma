@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Illustration der Ladenfront mit handgeschriebenem Schriftzug">
+  <defs>
+    <linearGradient id="w-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7EEDD"/>
+      <stop offset="1" stop-color="#E6D5BA"/>
+    </linearGradient>
+    <linearGradient id="w-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBF8F2" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#A8B8B8" stop-opacity=".55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#w-sky)"/>
+
+  <!-- cobblestones -->
+  <g fill="#CBB79A" opacity=".8">
+    <ellipse cx="90" cy="836" rx="86" ry="34"/><ellipse cx="270" cy="852" rx="86" ry="34"/>
+    <ellipse cx="450" cy="834" rx="86" ry="34"/><ellipse cx="630" cy="854" rx="86" ry="34"/>
+    <ellipse cx="810" cy="836" rx="86" ry="34"/><ellipse cx="990" cy="852" rx="86" ry="34"/>
+    <ellipse cx="1170" cy="834" rx="86" ry="34"/><ellipse cx="1350" cy="852" rx="86" ry="34"/>
+    <ellipse cx="1530" cy="836" rx="86" ry="34"/>
+  </g>
+  <rect y="806" width="1600" height="94" fill="#BFA987"/>
+  <rect y="796" width="1600" height="14" fill="#A08B6C"/>
+
+  <!-- building facade -->
+  <rect x="80" y="40" width="1440" height="760" fill="#EFE2CB"/>
+  <rect x="80" y="40" width="1440" height="760" fill="none" stroke="#D9C7A8" stroke-width="6"/>
+  <g fill="#E4D4B6">
+    <rect x="80" y="330" width="1440" height="26"/>
+  </g>
+
+  <!-- sign band -->
+  <rect x="80" y="66" width="1440" height="212" fill="#49352B"/>
+  <rect x="96" y="82" width="1408" height="180" fill="none" stroke="#B98555" stroke-width="5" opacity=".75"/>
+  <text x="800" y="196" text-anchor="middle" font-family="Segoe Script, Bradley Hand, Caveat, cursive" font-size="132" fill="#F4EFE6">Tante Emma</text>
+  <text x="800" y="244" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="27" letter-spacing="14" fill="#E4C79F">KAFFEE · KUCHEN · SCHÖNE DINGE</text>
+
+  <!-- window left -->
+  <g>
+    <rect x="146" y="336" width="560" height="440" rx="10" fill="#49352B"/>
+    <rect x="168" y="358" width="516" height="396" rx="5" fill="url(#w-glass)"/>
+    <path d="M168 358h516v396H168z" fill="none" stroke="#8E643F" stroke-width="5"/>
+    <path d="M426 358v396" stroke="#8E643F" stroke-width="6"/>
+    <!-- painted shop lettering on glass -->
+    <text x="426" y="470" text-anchor="middle" font-family="Segoe Script, Bradley Hand, cursive" font-size="54" fill="#49352B" opacity=".85">fein &amp; frisch</text>
+    <path d="M300 494h252" stroke="#B98555" stroke-width="4"/>
+    <!-- interior silhouettes -->
+    <g opacity=".55">
+      <rect x="196" y="620" width="460" height="26" rx="8" fill="#8E643F"/>
+      <path d="M240 566h60v54h-60z" fill="#49352B"/>
+      <path d="M330 552h66v68h-66z" fill="#49352B"/>
+      <path d="M430 574h56v46h-56z" fill="#49352B"/>
+      <path d="M520 560h64v60h-64z" fill="#49352B"/>
+      <path d="M616 582h48v38h-48z" fill="#49352B"/>
+    </g>
+    <path d="M200 372l180 380" stroke="#FFFDF8" stroke-width="30" opacity=".55"/>
+    <path d="M300 366l130 272" stroke="#FFFDF8" stroke-width="12" opacity=".5"/>
+    <!-- window box with flowers -->
+    <rect x="150" y="778" width="552" height="58" rx="8" fill="#8E643F"/>
+    <g>
+      <g fill="#75806A"><path d="M220 778c-24-44-14-82 14-108-6 44 0 76-14 108z"/><path d="M320 778c-26-40-18-78 8-106-4 42 2 74-8 106z"/><path d="M430 778c-24-44-14-82 14-108-6 44 0 76-14 108z"/><path d="M540 778c-26-40-18-78 8-106-4 42 2 74-8 106z"/></g>
+      <g><circle cx="240" cy="686" r="24" fill="#C4664A"/><circle cx="346" cy="694" r="22" fill="#D9A441"/><circle cx="452" cy="682" r="24" fill="#D8A7A0"/><circle cx="562" cy="694" r="22" fill="#E4C79F"/></g>
+    </g>
+  </g>
+
+  <!-- door -->
+  <g>
+    <rect x="740" y="336" width="300" height="470" rx="10" fill="#8E643F"/>
+    <rect x="764" y="360" width="252" height="276" rx="6" fill="url(#w-glass)" stroke="#49352B" stroke-width="5"/>
+    <rect x="764" y="666" width="252" height="116" rx="6" fill="#6E4B30"/>
+    <circle cx="990" cy="654" r="13" fill="#E4C79F"/>
+    <text x="890" y="470" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="34" font-weight="700" letter-spacing="6" fill="#49352B" opacity=".8">OPEN</text>
+    <!-- opening hours sign -->
+    <rect x="792" y="512" width="196" height="112" rx="8" fill="#FBF8F2" stroke="#B98555" stroke-width="4"/>
+    <text x="890" y="546" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="21" font-weight="700" fill="#49352B">Öffnungszeiten</text>
+    <text x="890" y="578" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="19" fill="#6E5847">Mo–Fr 8–18 Uhr</text>
+    <text x="890" y="606" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="19" fill="#6E5847">Sa 9–16 Uhr</text>
+  </g>
+
+  <!-- window right -->
+  <g>
+    <rect x="1074" y="336" width="430" height="440" rx="10" fill="#49352B"/>
+    <rect x="1096" y="358" width="386" height="396" rx="5" fill="url(#w-glass)"/>
+    <path d="M1289 358v396" stroke="#8E643F" stroke-width="6"/>
+    <!-- hanging plants & objects inside -->
+    <g opacity=".6" fill="#49352B">
+      <path d="M1150 358v70"/><circle cx="1150" cy="452" r="30"/>
+      <path d="M1420 358v58"/><circle cx="1420" cy="440" r="26"/>
+      <rect x="1120" y="620" width="300" height="24" rx="8"/>
+      <path d="M1150 566h54v54h-54zM1240 552h58v68h-58zM1330 574h52v46h-52z"/>
+    </g>
+    <text x="1289" y="530" text-anchor="middle" font-family="Segoe Script, Bradley Hand, cursive" font-size="60" fill="#49352B" opacity=".8">Willkommen</text>
+    <path d="M1180 556h218" stroke="#B98555" stroke-width="4"/>
+    <path d="M1130 372l150 316" stroke="#FFFDF8" stroke-width="26" opacity=".55"/>
+  </g>
+
+  <!-- awning -->
+  <g>
+    <path d="M80 306h1440l-30 44H110z" fill="#75806A"/>
+    <g fill="#FBF8F2" opacity=".65">
+      <path d="M150 306h76l-14 44h-76zM330 306h76l-16 44h-76zM510 306h76l-18 44h-76zM690 306h76l-20 44h-76zM870 306h76l-22 44h-76zM1050 306h76l-24 44h-76zM1230 306h76l-26 44h-76zM1410 306h76l-28 44h-76z"/>
+    </g>
+    <path d="M80 344h1440v10H80z" fill="#5F6B52"/>
+  </g>
+
+  <!-- hanging lamp posts -->
+  <g stroke="#49352B" stroke-width="5" fill="none">
+    <path d="M40 60h60M1500 60h60"/>
+  </g>
+
+  <rect width="1600" height="900" fill="#49352B" opacity=".05"/>
+</svg>

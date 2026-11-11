@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Illustration des Café-Interieurs">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFE4D2"/>
+      <stop offset="1" stop-color="#E2D2B8"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF4DC" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#FFF4DC" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C79E72"/>
+      <stop offset="1" stop-color="#A97F55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#wall)"/>
+  <rect y="648" width="1600" height="252" fill="url(#floor)"/>
+  <g stroke="#93704C" stroke-width="3" opacity=".45">
+    <path d="M0 700h1600M0 756h1600M0 818h1600"/>
+    <path d="M240 648l-40 252M620 648l-30 252M1040 648l30 252M1400 648l40 252"/>
+  </g>
+
+  <!-- window -->
+  <g>
+    <rect x="96" y="86" width="452" height="500" rx="14" fill="#49352B"/>
+    <rect x="120" y="110" width="404" height="452" rx="6" fill="#FBF8F2"/>
+    <g stroke="#B98555" stroke-width="7">
+      <path d="M322 110v452M120 336h404"/>
+    </g>
+    <path d="M120 110h404v452H120z" fill="url(#glow)"/>
+    <g opacity=".5" fill="#A8B8B8">
+      <rect x="140" y="360" width="160" height="202" rx="6"/>
+      <rect x="344" y="360" width="160" height="202" rx="6"/>
+    </g>
+    <path d="M74 86h30v500H74zM540 86h30v500h-30z" fill="#B98555"/>
+    <path d="M60 586h520v22H60z" fill="#8E643F"/>
+  </g>
+
+  <!-- light beam -->
+  <path d="M140 150L660 900H60L140 150z" fill="#FFF6E3" opacity=".35"/>
+
+  <!-- shelf with cups -->
+  <g>
+    <rect x="820" y="262" width="640" height="20" rx="6" fill="#8E643F"/>
+    <rect x="820" y="282" width="640" height="9" rx="4" fill="#6E4B30" opacity=".5"/>
+    <g>
+      <path d="M868 214h58v48h-58z" fill="#FBF8F2"/><path d="M926 226h14a13 13 0 0 1 0 26h-14z" fill="#FBF8F2"/>
+      <path d="M966 206h56v56h-56z" fill="#A8B8B8"/>
+      <path d="M1046 222h54v40h-54z" fill="#B98555"/>
+      <path d="M1124 198h62v64h-62z" fill="#FBF8F2"/><path d="M1136 210h38v14h-38z" fill="#D8A7A0"/>
+      <path d="M1214 220h52v42h-52z" fill="#75806A"/>
+      <path d="M1292 208h58v54h-58z" fill="#FBF8F2"/><path d="M1304 224h34v12h-34z" fill="#C4664A"/>
+      <path d="M1378 226h46v36h-46z" fill="#D9A441"/>
+    </g>
+    <rect x="820" y="132" width="640" height="18" rx="6" fill="#8E643F"/>
+    <g opacity=".92">
+      <rect x="856" y="76" width="46" height="56" rx="8" fill="#C4664A"/>
+      <rect x="920" y="86" width="42" height="46" rx="8" fill="#FBF8F2"/>
+      <rect x="982" y="70" width="48" height="62" rx="8" fill="#4E7C7B"/>
+      <rect x="1050" y="90" width="40" height="42" rx="8" fill="#D9A441"/>
+      <rect x="1108" y="78" width="46" height="54" rx="8" fill="#FBF8F2"/>
+      <rect x="1172" y="88" width="42" height="44" rx="8" fill="#75806A"/>
+      <rect x="1236" y="72" width="50" height="60" rx="8" fill="#D8A7A0"/>
+      <rect x="1306" y="84" width="44" height="48" rx="8" fill="#A8B8B8"/>
+      <rect x="1370" y="76" width="48" height="56" rx="8" fill="#B98555"/>
+    </g>
+  </g>
+
+  <!-- pendant lamps -->
+  <g>
+    <path d="M700 0v132M1130 0v96M1480 0v150" stroke="#49352B" stroke-width="6"/>
+    <path d="M640 132h120l-24 66H664z" fill="#49352B"/>
+    <ellipse cx="700" cy="200" rx="26" ry="14" fill="#FFE9B8"/>
+    <path d="M1078 96h104l-20 58h-64z" fill="#B98555"/>
+    <ellipse cx="1130" cy="156" rx="22" ry="12" fill="#FFE9B8"/>
+    <path d="M1430 150h100l-20 56h-60z" fill="#49352B"/>
+    <ellipse cx="1480" cy="208" rx="22" ry="12" fill="#FFE9B8"/>
+  </g>
+
+  <!-- table -->
+  <g>
+    <rect x="596" y="556" width="640" height="30" rx="12" fill="#8E643F"/>
+    <rect x="596" y="586" width="640" height="14" rx="7" fill="#6E4B30"/>
+    <path d="M650 600h30v190h-30zM1156 600h30v190h-30z" fill="#6E4B30"/>
+    <!-- cake stand -->
+    <g>
+      <ellipse cx="880" cy="556" rx="96" ry="16" fill="#FBF8F2"/>
+      <path d="M868 500h24v52h-24z" fill="#EDE3D2"/>
+      <ellipse cx="880" cy="500" rx="66" ry="14" fill="#FFFDF8"/>
+      <path d="M814 500a66 44 0 0 1 132 0z" fill="#F1D8B4"/>
+      <path d="M814 498c14-10 30 6 44-4s26 8 40-2 34 6 48-4v12H814z" fill="#FBF8F2"/>
+      <circle cx="880" cy="462" r="12" fill="#C4664A"/>
+      <path d="M876 448c4-12 14-16 24-14-6 8-12 12-24 14z" fill="#75806A"/>
+    </g>
+    <!-- coffee cups -->
+    <g>
+      <path d="M726 520h64v34h-64z" fill="#FBF8F2"/><path d="M790 528h14a12 12 0 0 1 0 24h-14z" fill="#FBF8F2"/>
+      <ellipse cx="758" cy="520" rx="32" ry="8" fill="#EFE6D6"/>
+      <ellipse cx="758" cy="521" rx="24" ry="6" fill="#8A5A34"/>
+      <path d="M1034 524h58v30h-58z" fill="#A8B8B8"/><ellipse cx="1063" cy="524" rx="29" ry="7" fill="#FBF8F2"/>
+      <ellipse cx="1063" cy="525" rx="21" ry="5" fill="#8A5A34"/>
+    </g>
+    <!-- flowers -->
+    <g>
+      <path d="M1146 508h40v46h-40z" fill="#4E7C7B"/>
+      <path d="M1166 508c-6-40-30-56-52-62 18 26 30 44 52 62z" fill="#75806A"/>
+      <path d="M1166 508c8-44 30-60 54-66-20 28-32 46-54 66z" fill="#8B9679"/>
+      <circle cx="1132" cy="436" r="16" fill="#D9A441"/>
+      <circle cx="1200" cy="428" r="14" fill="#D8A7A0"/>
+      <circle cx="1166" cy="418" r="17" fill="#C4664A"/>
+    </g>
+  </g>
+
+  <!-- chairs -->
+  <g fill="#6E4B30">
+    <path d="M520 470h26v140h-26zM470 610h130v22H470zM486 632h18v150h-18zM574 632h18v150h-18z"/>
+    <path d="M1268 470h26v140h-26zM1232 610h130v22h-130zM1248 632h18v150h-18zM1336 632h18v150h-18z"/>
+  </g>
+
+  <!-- plant -->
+  <g>
+    <path d="M60 640h108l-14 130H74z" fill="#C4664A"/>
+    <path d="M114 640c-34-58-28-118 4-168-6 66 0 118-4 168z" fill="#5F6B52"/>
+    <path d="M114 640c34-52 78-72 128-70-52 16-96 34-128 70z" fill="#75806A"/>
+    <path d="M114 640c-46-40-96-46-144-30 54 4 104 12 144 30z" fill="#8B9679"/>
+  </g>
+
+  <rect width="1600" height="900" fill="#49352B" opacity=".06"/>
+</svg>

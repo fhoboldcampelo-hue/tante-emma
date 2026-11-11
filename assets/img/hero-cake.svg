@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Illustration der Kuchenvitrine">
+  <defs>
+    <linearGradient id="c-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9DAC2"/>
+      <stop offset="1" stop-color="#D8C3A3"/>
+    </linearGradient>
+    <linearGradient id="c-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBF8F2" stop-opacity=".75"/>
+      <stop offset=".5" stop-color="#FBF8F2" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#A8B8B8" stop-opacity=".35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#c-bg)"/>
+
+  <!-- wallpaper pattern -->
+  <g fill="#B98555" opacity=".18">
+    <g id="dot"><circle cx="0" cy="0" r="7"/><path d="M0 -26 6 -8 26 -14 10 0 26 14 6 8 0 26 -6 8 -26 14 -10 0 -26 -14 -6 -8z"/></g>
+    <use href="#dot" x="120" y="110"/><use href="#dot" x="380" y="90"/><use href="#dot" x="640" y="130"/>
+    <use href="#dot" x="900" y="90"/><use href="#dot" x="1160" y="130"/><use href="#dot" x="1420" y="90"/>
+    <use href="#dot" x="250" y="300"/><use href="#dot" x="520" y="330"/><use href="#dot" x="780" y="300"/>
+    <use href="#dot" x="1040" y="330"/><use href="#dot" x="1300" y="300"/><use href="#dot" x="1540" y="330"/>
+  </g>
+
+  <!-- back wall art -->
+  <g>
+    <rect x="140" y="80" width="300" height="220" rx="10" fill="#49352B"/>
+    <rect x="158" y="98" width="264" height="184" rx="4" fill="#F1E4CC"/>
+    <circle cx="240" cy="176" r="52" fill="#C4664A"/>
+    <path d="M158 282c60-70 130-40 176-90 34-36 66-30 88-6v96H158z" fill="#75806A"/>
+    <rect x="1160" y="70" width="240" height="180" rx="10" fill="#B98555"/>
+    <rect x="1176" y="86" width="208" height="148" rx="4" fill="#FBF8F2"/>
+    <path d="M1176 234c46-56 92-26 132-68 30-32 52-42 76-36v104h-208z" fill="#A8B8B8"/>
+    <circle cx="1330" cy="130" r="30" fill="#D9A441"/>
+  </g>
+
+  <!-- menu chalkboard -->
+  <g>
+    <rect x="600" y="70" width="400" height="240" rx="14" fill="#3A3630"/>
+    <rect x="616" y="86" width="368" height="208" rx="8" fill="none" stroke="#B98555" stroke-width="4" opacity=".7"/>
+    <text x="800" y="160" text-anchor="middle" font-family="Segoe Script, Bradley Hand, cursive" font-size="56" fill="#F4EFE6">Tante Emma</text>
+    <path d="M690 186h220" stroke="#F4EFE6" stroke-width="3" opacity=".6"/>
+    <text x="800" y="232" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="30" fill="#E4C79F">Kaffee · Kuchen · Brot</text>
+    <text x="800" y="272" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="22" fill="#A8B8B8">hausgemacht, jeden Tag</text>
+  </g>
+
+  <!-- counter -->
+  <rect y="640" width="1600" height="60" fill="#8E643F"/>
+  <rect y="700" width="1600" height="200" fill="#6E4B30"/>
+  <g stroke="#5A3D27" stroke-width="6" opacity=".6">
+    <path d="M180 700v200M520 700v200M860 700v200M1200 700v200M1540 700v200"/>
+  </g>
+
+  <!-- display case -->
+  <g>
+    <rect x="120" y="380" width="1360" height="260" rx="16" fill="#FBF8F2"/>
+    <rect x="120" y="380" width="1360" height="260" rx="16" fill="url(#c-glass)"/>
+    <rect x="120" y="380" width="1360" height="260" rx="16" fill="none" stroke="#49352B" stroke-width="8"/>
+    <path d="M120 520h1360" stroke="#49352B" stroke-width="6" opacity=".55"/>
+    <!-- upper shelf: cakes -->
+    <g>
+      <ellipse cx="330" cy="510" rx="120" ry="18" fill="#EDE3D2"/>
+      <path d="M212 510a118 78 0 0 1 236 0z" fill="#F0CF9E"/>
+      <path d="M212 506c18-14 34 8 52-4s34 10 52-2 36 8 54-4 40 8 62 2v14H212z" fill="#FBF8F2"/>
+      <circle cx="330" cy="440" r="13" fill="#C4664A"/>
+      <g fill="#75806A"><path d="M326 426c4-14 14-20 26-18-8 10-14 14-26 18z"/></g>
+
+      <ellipse cx="700" cy="512" rx="130" ry="18" fill="#EDE3D2"/>
+      <path d="M572 512a128 84 0 0 1 256 0z" fill="#D8A7A0"/>
+      <path d="M572 508c20-16 38 8 58-4s38 10 58-2 40 8 60-4 44 8 68 2v16H572z" fill="#FFF6EC"/>
+      <g fill="#C4664A"><circle cx="660" cy="436" r="11"/><circle cx="706" cy="428" r="11"/><circle cx="752" cy="438" r="11"/></g>
+
+      <ellipse cx="1070" cy="512" rx="122" ry="18" fill="#EDE3D2"/>
+      <path d="M950 512a120 76 0 0 1 240 0z" fill="#8A5A34"/>
+      <path d="M950 508c18-14 36 8 54-4s36 10 54-2 38 8 56-4 42 8 62 2v16H950z" fill="#6E4429"/>
+      <g fill="#F4EFE6"><circle cx="1030" cy="452" r="7"/><circle cx="1070" cy="444" r="7"/><circle cx="1112" cy="454" r="7"/></g>
+
+      <ellipse cx="1348" cy="514" rx="104" ry="18" fill="#EDE3D2"/>
+      <path d="M1246 514a102 70 0 0 1 204 0z" fill="#E8C98A"/>
+      <path d="M1246 510c16-12 32 8 48-4s32 10 48-2 34 8 52-4 36 6 56 2v16h-204z" fill="#FBF8F2"/>
+      <g fill="#D9A441"><circle cx="1330" cy="462" r="10"/><circle cx="1372" cy="456" r="10"/></g>
+    </g>
+    <!-- lower shelf: pastries -->
+    <g>
+      <g fill="#D9A441">
+        <ellipse cx="260" cy="600" rx="66" ry="34"/><ellipse cx="430" cy="604" rx="66" ry="34"/>
+        <ellipse cx="600" cy="600" rx="66" ry="34"/>
+      </g>
+      <g fill="#C4664A">
+        <ellipse cx="800" cy="604" rx="60" ry="32"/><ellipse cx="960" cy="600" rx="60" ry="32"/>
+      </g>
+      <g fill="#75806A">
+        <ellipse cx="1150" cy="604" rx="64" ry="32"/><ellipse cx="1320" cy="600" rx="64" ry="32"/>
+      </g>
+      <g stroke="#8A5A34" stroke-width="4" opacity=".55">
+        <path d="M214 596c30 10 62 10 92 0M384 600c30 10 62 10 92 0M554 596c30 10 62 10 92 0"/>
+      </g>
+    </g>
+    <path d="M180 400l240 220" stroke="#FFFDF8" stroke-width="26" opacity=".5"/>
+    <path d="M240 396l200 180" stroke="#FFFDF8" stroke-width="10" opacity=".45"/>
+  </g>
+
+  <!-- price cards -->
+  <g font-family="Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#49352B">
+    <g><rect x="272" y="556" width="116" height="42" rx="8" fill="#FBF8F2" stroke="#B98555" stroke-width="3"/><text x="330" y="585" text-anchor="middle">4,20 €</text></g>
+    <g><rect x="644" y="556" width="116" height="42" rx="8" fill="#FBF8F2" stroke="#B98555" stroke-width="3"/><text x="702" y="585" text-anchor="middle">4,80 €</text></g>
+    <g><rect x="1014" y="556" width="116" height="42" rx="8" fill="#FBF8F2" stroke="#B98555" stroke-width="3"/><text x="1072" y="585" text-anchor="middle">4,50 €</text></g>
+    <g><rect x="1294" y="556" width="116" height="42" rx="8" fill="#FBF8F2" stroke="#B98555" stroke-width="3"/><text x="1352" y="585" text-anchor="middle">3,90 €</text></g>
+  </g>
+
+  <rect width="1600" height="900" fill="#49352B" opacity=".05"/>
+</svg>

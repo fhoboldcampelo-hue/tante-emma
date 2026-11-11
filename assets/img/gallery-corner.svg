@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustration einer gemütlichen Sitzecke im Café">
+  <defs>
+    <linearGradient id="co-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0E6D4"/>
+      <stop offset="1" stop-color="#DFCFB3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#co-wall)"/>
+
+  <!-- window -->
+  <g>
+    <rect x="452" y="52" width="290" height="300" rx="8" fill="#49352B"/>
+    <rect x="470" y="70" width="254" height="264" fill="#FBF8F2"/>
+    <path d="M470 70h254v264H470z" fill="#F7EFD9"/>
+    <path d="M597 70v264M470 202h254" stroke="#8E643F" stroke-width="7"/>
+    <g opacity=".35" fill="#A8B8B8"><rect x="486" y="218" width="94" height="116"/><rect x="614" y="218" width="94" height="116"/></g>
+    <path d="M470 70h254v264H470z" fill="none" stroke="#49352B" stroke-width="8"/>
+    <rect x="440" y="352" width="314" height="16" rx="6" fill="#8E643F"/>
+    <!-- curtains -->
+    <path d="M446 52h56c-8 100-6 200 6 300h-70c14-100 16-200 8-300z" fill="#D8A7A0" opacity=".85"/>
+    <path d="M704 52h50c6 100 4 200-8 300h-56c14-100 18-200 14-300z" fill="#D8A7A0" opacity=".85"/>
+  </g>
+
+  <!-- wall art left -->
+  <g>
+    <rect x="60" y="70" width="176" height="212" rx="8" fill="#B98555"/>
+    <rect x="74" y="84" width="148" height="184" fill="#F4EFE6"/>
+    <circle cx="148" cy="150" r="44" fill="#C4664A"/>
+    <path d="M74 268c40-52 84-26 116-70 16-22 24-24 32-22v92H74z" fill="#75806A"/>
+    <!-- hanging plant -->
+    <path d="M300 0v54" stroke="#49352B" stroke-width="6"/>
+    <path d="M262 54h76l-12 60h-52z" fill="#C4664A"/>
+    <path d="M300 114c-30 32-40 78-24 124 4-46 16-86 24-124z" fill="#75806A"/>
+    <path d="M300 114c30 34 40 84 22 132-4-50-14-94-22-132z" fill="#8B9679"/>
+  </g>
+
+  <!-- bench seat -->
+  <g>
+    <rect x="40" y="330" width="380" height="150" rx="20" fill="#8E643F"/>
+    <rect x="40" y="300" width="380" height="70" rx="18" fill="#6E4B30"/>
+    <rect x="64" y="366" width="332" height="94" rx="16" fill="#A8B8B8"/>
+    <rect x="86" y="336" width="140" height="66" rx="16" fill="#D8A7A0"/>
+    <rect x="244" y="336" width="130" height="66" rx="16" fill="#E4C79F"/>
+    <g stroke="#F4EFE6" stroke-width="5" opacity=".6" fill="none"><path d="M110 368h96M268 368h84"/></g>
+    <rect x="70" y="474" width="26" height="76" fill="#6E4B30"/>
+    <rect x="366" y="474" width="26" height="76" fill="#6E4B30"/>
+  </g>
+
+  <!-- small round table -->
+  <g>
+    <ellipse cx="576" cy="452" rx="130" ry="34" fill="#8E643F"/>
+    <ellipse cx="576" cy="444" rx="130" ry="32" fill="#B5895C"/>
+    <path d="M560 470h30v96h-30z" fill="#6E4B30"/>
+    <path d="M512 566h126" stroke="#6E4B30" stroke-width="16" stroke-linecap="round"/>
+    <!-- cup & cake -->
+    <path d="M512 412h62v34h-62z" fill="#FBF8F2"/>
+    <ellipse cx="543" cy="412" rx="31" ry="9" fill="#EDE3D2"/>
+    <ellipse cx="543" cy="413" rx="23" ry="6" fill="#8A5A34"/>
+    <path d="M574 420h14a12 12 0 0 1 0 24h-14z" fill="none" stroke="#FBF8F2" stroke-width="8"/>
+    <ellipse cx="676" cy="436" rx="56" ry="18" fill="#FBF8F2"/>
+    <path d="M640 436l38-56 40 56z" fill="#E0B279"/>
+    <path d="M640 436l38-56 8 12-30 44z" fill="#FBF8F2"/>
+    <circle cx="678" cy="378" r="9" fill="#C4664A"/>
+    <!-- steam -->
+    <g stroke="#FBF8F2" stroke-width="6" fill="none" opacity=".7" stroke-linecap="round">
+      <path d="M528 386c-16-20 10-34-4-54M558 386c-16-20 10-34-4-54"/>
+    </g>
+  </g>
+
+  <!-- armchair -->
+  <g>
+    <path d="M470 480h300c26 0 44 20 44 46v54H426v-54c0-26 18-46 44-46z" fill="#75806A"/>
+    <path d="M486 434h268c24 0 42 18 42 42v34H444v-34c0-24 18-42 42-42z" fill="#8B9679"/>
+    <rect x="462" y="470" width="46" height="90" rx="18" fill="#5F6B52"/>
+    <rect x="740" y="470" width="46" height="90" rx="18" fill="#5F6B52"/>
+  </g>
+
+  <!-- floor -->
+  <rect y="544" width="800" height="56" fill="#B5895C"/>
+  <rect y="536" width="800" height="14" fill="#8E643F"/>
+  <path d="M40 556h720v44H40z" fill="#D8A7A0" opacity=".55"/>
+  <g stroke="#C4664A" stroke-width="4" opacity=".5" fill="none">
+    <path d="M60 576h680M60 594h680"/>
+  </g>
+
+  <rect width="800" height="600" fill="#49352B" opacity=".05"/>
+</svg>

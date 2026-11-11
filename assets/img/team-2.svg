@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Porträt-Illustration: Barista Jonas">
+  <defs>
+    <linearGradient id="p2-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E4E9E6"/>
+      <stop offset="1" stop-color="#CFD9D6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#p2-bg)"/>
+  <circle cx="300" cy="290" r="196" fill="#FBF8F2" opacity=".5"/>
+  <g fill="#75806A" opacity=".28">
+    <circle cx="84" cy="110" r="26"/><circle cx="516" cy="96" r="26"/>
+    <circle cx="76" cy="504" r="24"/><circle cx="526" cy="510" r="24"/>
+  </g>
+
+  <!-- body -->
+  <path d="M84 600c0-118 96-196 216-196s216 78 216 196z" fill="#49352B"/>
+  <path d="M228 404h144v56c0 30-32 52-72 52s-72-22-72-52z" fill="#E0BC9B"/>
+  <!-- shirt collar -->
+  <path d="M244 446l56 62 56-62 34 24-90 92-90-92z" fill="#FBF8F2"/>
+  <path d="M300 486l30 34-30 62-30-62z" fill="#B98555"/>
+
+  <!-- head -->
+  <path d="M300 264c-72 0-116 54-116 130 0 76 50 132 116 132s116-56 116-132c0-76-44-130-116-130z" fill="#E0BC9B"/>
+  <!-- hair -->
+  <path d="M186 368c-8-104 44-176 114-176s122 72 114 176c-12-44-36-70-64-82-34 24-86 34-140 26-10 16-18 34-24 56z" fill="#3B2E27"/>
+  <path d="M232 236c34-24 84-24 118 4-40-10-82-10-118-4z" fill="#4A3A31"/>
+  <!-- beard -->
+  <path d="M192 396c4 96 50 156 108 156s104-60 108-156c-6 74-30 114-56 128-18 10-38 14-52 14s-34-4-52-14c-26-14-50-54-56-128z" fill="#4A3A31"/>
+  <path d="M240 476c18 34 40 52 60 52s42-18 60-52c-18 24-38 36-60 36s-42-12-60-36z" fill="#3B2E27"/>
+  <!-- ears -->
+  <circle cx="184" cy="404" r="22" fill="#D8B294"/>
+  <circle cx="416" cy="404" r="22" fill="#D8B294"/>
+  <!-- eyes / brows -->
+  <g fill="#3B2E27"><ellipse cx="258" cy="398" rx="12" ry="14"/><ellipse cx="342" cy="398" rx="12" ry="14"/></g>
+  <g stroke="#3B2E27" stroke-width="11" fill="none" stroke-linecap="round">
+    <path d="M234 364c16-10 36-10 50 2M316 366c14-12 34-12 50-2"/>
+  </g>
+  <path d="M300 412v36c0 10-8 16-18 18" stroke="#CFA284" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M274 486c16 12 36 12 52 0" stroke="#8A5A34" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+  <rect width="600" height="600" fill="#49352B" opacity=".05"/>
+</svg>
