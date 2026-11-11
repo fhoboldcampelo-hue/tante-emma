@@ -145,6 +145,15 @@
     if (row) row.classList.add("is-today");
   }
 
+  /* ---------- Hero badge: today's opening status ---------- */
+  var badgeText = document.querySelector("[data-hours-badge-text]");
+  if (badgeText) {
+    var today = new Date().getDay();        // 0 = Sunday, 6 = Saturday
+    badgeText.textContent = (today === 0 || today === 6)
+      ? "Heute geschlossen · Mo–Fr ab 9:30 Uhr"
+      : "Heute geöffnet · 9:30–17 Uhr";
+  }
+
   /* ---------- Current year in footer ---------- */
   document.querySelectorAll("[data-year]").forEach(function (el) {
     el.textContent = String(new Date().getFullYear());

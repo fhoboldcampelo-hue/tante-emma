@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Speisekarte — Tante Emma | Kaffee, Kuchen &amp; Gebäck</title>
-  <meta name="description" content="Die Speisekarte von Tante Emma: Kaffee, Kuchen, herzhafte Gerichte, Brot und Gebäck — mit Preisen, saisonalen Empfehlungen und Allergenhinweisen.">
-  <link rel="canonical" href="https://www.tante-emma-cafe.de/speisekarte.html">
+  <title>Speisekarte — Tante Emma | Getränke, Kuchen &amp; Snacks</title>
+  <meta name="description" content="Die Speisekarte von Tante Emma: heiße Getränke, Kuchen, Snacks und Geschenke — mit Allergenhinweisen aus dem Café in Freiburg-Herdern.">
+  <link rel="canonical" href="https://tante-emma-freiburg.de/speisekarte.html">
   <meta name="theme-color" content="#F4EFE6">
 
   <meta property="og:type" content="website">
   <meta property="og:locale" content="de_DE">
   <meta property="og:site_name" content="Tante Emma">
   <meta property="og:title" content="Speisekarte — Tante Emma">
-  <meta property="og:description" content="Kaffee, Kuchen, Gebäck und herzhafte Kleinigkeiten — mit Preisen und Allergenhinweisen.">
+  <meta property="og:description" content="Heiße Getränke, Kuchen, Snacks und Geschenke — die Auswahl bei Tante Emma in Freiburg.">
   <meta property="og:image" content="assets/img/hero-cake.jpg">
   <meta name="twitter:card" content="summary_large_image">
 
@@ -29,15 +29,55 @@
     "@context": "https://schema.org",
     "@type": "Menu",
     "name": "Speisekarte Tante Emma",
-    "url": "https://www.tante-emma-cafe.de/speisekarte.html",
+    "url": "https://tante-emma-freiburg.de/speisekarte.html",
     "inLanguage": "de",
     "hasMenuSection": [
-      { "@type": "MenuSection", "name": "Kaffee & Tee" },
-      { "@type": "MenuSection", "name": "Kuchen & Torten" },
-      { "@type": "MenuSection", "name": "Frühstück & herzhaft" },
-      { "@type": "MenuSection", "name": "Brot & Gebäck" },
-      { "@type": "MenuSection", "name": "Kaltgetränke" },
-      { "@type": "MenuSection", "name": "Schöne Dinge zum Mitnehmen" }
+      {
+        "@type": "MenuSection",
+        "name": "Heiße Getränke",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Espresso" },
+          { "@type": "MenuItem", "name": "Kaffee" },
+          { "@type": "MenuItem", "name": "Tee" },
+          { "@type": "MenuItem", "name": "Matcha" },
+          { "@type": "MenuItem", "name": "Chai" },
+          { "@type": "MenuItem", "name": "Heiße Schokolade" },
+          { "@type": "MenuItem", "name": "Goldene Milch" }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Kuchen",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Gebäck" },
+          { "@type": "MenuItem", "name": "Kuchen" },
+          { "@type": "MenuItem", "name": "Franzbrötchen" },
+          { "@type": "MenuItem", "name": "Belgische Waffeln" },
+          { "@type": "MenuItem", "name": "Vegane Varianten" }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Snacks",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Belegte Brote" },
+          { "@type": "MenuItem", "name": "Panini klassisch" },
+          { "@type": "MenuItem", "name": "Panini vegetarisch" },
+          { "@type": "MenuItem", "name": "Panini vegan" },
+          { "@type": "MenuItem", "name": "Desserts" }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Geschenke",
+        "hasMenuItem": [
+          { "@type": "MenuItem", "name": "Schmuck" },
+          { "@type": "MenuItem", "name": "Gutscheine" },
+          { "@type": "MenuItem", "name": "Postkarten" },
+          { "@type": "MenuItem", "name": "Kalender" },
+          { "@type": "MenuItem", "name": "Und vieles mehr" }
+        ]
+      }
     ]
   }
   </script>
@@ -62,7 +102,7 @@
           <li><a class="nav__link" href="speisekarte.html" aria-current="page">Speisekarte</a></li>
           <li><a class="nav__link" href="ueber-uns.html">Über uns</a></li>
           <li><a class="nav__link" href="besuch-uns.html">Besuch uns</a></li>
-          <li class="header-cta"><a class="btn btn--honey" href="https://www.google.com/maps/dir/?api=1&amp;destination=Lindenstra%C3%9Fe+12%2C+20357+Hamburg" target="_blank" rel="noopener">Anfahrt</a></li>
+          <li class="header-cta"><a class="btn btn--honey" href="https://www.google.com/maps/dir/?api=1&amp;destination=Karlstra%C3%9Fe+71%2C+79104+Freiburg" target="_blank" rel="noopener">Anfahrt</a></li>
         </ul>
       </nav>
     </div>
@@ -95,273 +135,146 @@
         <nav class="menu-nav" aria-label="Kategorien der Speisekarte">
           <h2>Kategorien</h2>
           <ul>
-            <li><a href="#kaffee" data-menu-link>Kaffee &amp; Tee <span>9</span></a></li>
-            <li><a href="#kuchen" data-menu-link>Kuchen &amp; Torten <span>7</span></a></li>
-            <li><a href="#fruehstueck" data-menu-link>Frühstück &amp; herzhaft <span>6</span></a></li>
-            <li><a href="#gebaeck" data-menu-link>Brot &amp; Gebäck <span>6</span></a></li>
-            <li><a href="#kalt" data-menu-link>Kaltgetränke <span>6</span></a></li>
-            <li><a href="#dinge" data-menu-link>Schöne Dinge <span>5</span></a></li>
+            <li><a href="#heisse-getraenke" data-menu-link>Heiße Getränke <span>7</span></a></li>
+            <li><a href="#kuchen" data-menu-link>Kuchen <span>5</span></a></li>
+            <li><a href="#snacks" data-menu-link>Snacks <span>5</span></a></li>
+            <li><a href="#geschenke" data-menu-link>Geschenke <span>5</span></a></li>
           </ul>
         </nav>
 
         <div class="menu-content">
 
-          <!-- KAFFEE -->
-          <section class="menu-section" id="kaffee" aria-labelledby="kaffee-titel">
+          <!-- HEIßE GETRÄNKE -->
+          <section class="menu-section" id="heisse-getraenke" aria-labelledby="getraenke-titel">
             <div class="menu-section__head">
-              <h2 id="kaffee-titel">Kaffee &amp; Tee</h2>
-              <span class="menu-section__note">Hafermilch ohne Aufpreis</span>
+              <h2 id="getraenke-titel">Heiße Getränke</h2>
+              <span class="menu-section__note">auch zum Mitnehmen</span>
             </div>
 
             <div class="menu-item">
               <span class="menu-item__name">Espresso</span>
-              <span class="menu-item__price">2,60 €</span>
-              <p class="menu-item__desc">Unsere Hausmischung, dunkel geröstet, schokoladig mit Noten von Haselnuss.</p>
+              <p class="menu-item__desc">Klein und kräftig — pur oder mit einem Schuss Wasser.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Cappuccino</span>
-              <span class="menu-item__price">3,40 €</span>
-              <p class="menu-item__desc">Doppelter Espresso, viel Milchschaum. Auch mit Hafer-, Soja- oder Mandelmilch.</p>
+              <span class="menu-item__name">Kaffee</span>
+              <p class="menu-item__desc">Frisch gebrüht, schwarz oder mit Milch nach Wunsch.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Flat White</span>
-              <span class="menu-item__price">3,80 €</span>
-              <p class="menu-item__desc">Feiner Mikroschaum, doppelter Espresso — für alle, die es kräftig mögen.</p>
+              <span class="menu-item__name">Tee</span>
+              <p class="menu-item__desc">Kräuter- oder schwarzer Tee, lose in der Kanne.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Filterkaffee <span class="pill pill--new">Neu</span></span>
-              <span class="menu-item__price">3,20 €</span>
-              <p class="menu-item__desc">Handaufguss der Woche, aktuell Äthiopien mit Noten von Pfirsich und Jasmin.</p>
+              <span class="menu-item__name">Matcha</span>
+              <p class="menu-item__desc">Grüner Tee, aufgeschlagen — pur oder als Latte mit Milch.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Latte Macchiato</span>
-              <span class="menu-item__price">3,90 €</span>
-              <p class="menu-item__desc">In drei Schichten, mit Vanille- oder Karamellsirup auf Wunsch.</p>
+              <span class="menu-item__name">Chai</span>
+              <p class="menu-item__desc">Würziger Chai mit Milch und Gewürzen.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Heiße Schokolade <span class="pill pill--season">Saisonal</span></span>
-              <span class="menu-item__price">4,20 €</span>
-              <p class="menu-item__desc">Echtes Zartbitterschokolade, aufgekocht mit Vollmilch — ab Oktober im Angebot.</p>
+              <span class="menu-item__name">Heiße Schokolade</span>
+              <p class="menu-item__desc">Echte Schokolade, aufgekocht mit Milch.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Masala Chai Latte</span>
-              <span class="menu-item__price">4,10 €</span>
-              <p class="menu-item__desc">Selbst gemischte Gewürze, schwarzer Tee, viel Milch.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Kräutertee, various</span>
-              <span class="menu-item__price">3,20 €</span>
-              <p class="menu-item__desc">Kamille, Minze, Melisse oder Ingwer-Zitrone — lose in der Kanne.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Matcha Latte</span>
-              <span class="menu-item__price">4,30 €</span>
-              <p class="menu-item__desc">Ceremonial Grade, gesiebt, mit Hafermilch aufgeschlagen.</p>
+              <span class="menu-item__name">Goldene Milch</span>
+              <p class="menu-item__desc">Warme Milch mit Kurkuma, Ingwer und Gewürzen.</p>
             </div>
           </section>
 
           <!-- KUCHEN -->
           <section class="menu-section" id="kuchen" aria-labelledby="kuchen-titel">
             <div class="menu-section__head">
-              <h2 id="kuchen-titel">Kuchen &amp; Torten</h2>
-              <span class="menu-section__note">täglich 3–4 Sorten</span>
+              <h2 id="kuchen-titel">Kuchen</h2>
+              <span class="menu-section__note">täglich frisch</span>
             </div>
 
             <div class="menu-item">
-              <span class="menu-item__name">Schokoladen-Tarte <span class="pill pill--vegan">vegan</span></span>
-              <span class="menu-item__price">4,60 €</span>
-              <p class="menu-item__desc">62 % Zartbitterschokolade auf einem Boden aus Dinkelmehl und Butter.</p>
+              <span class="menu-item__name">Gebäck</span>
+              <p class="menu-item__desc">Kleines Gebäck und Feingebäck zur Kaffeezeit.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Rhabarber mit Baiser</span>
-              <span class="menu-item__price">4,50 €</span>
-              <p class="menu-item__desc">Saisonal von April bis Juni, mit Vanillepudding und gebräntem Baiser.</p>
+              <span class="menu-item__name">Kuchen</span>
+              <p class="menu-item__desc">Hausgemachte Kuchen und Torten, in der Vitrine wechselnd.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Karottenkuchen</span>
-              <span class="menu-item__price">4,40 €</span>
-              <p class="menu-item__desc">Mit Walnüssen, Kardamom und Frischkäsecreme — der Klassiker im Haus.</p>
+              <span class="menu-item__name">Franzbrötchen</span>
+              <p class="menu-item__desc">Hefeteig mit Zimt und Zucker — der nordische Klassiker.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Zitronen-Biskuit</span>
-              <span class="menu-item__price">4,30 €</span>
-              <p class="menu-item__desc">Leicht, saftig, mit einer dicken Schicht Zitronencreme.</p>
+              <span class="menu-item__name">Belgische Waffeln</span>
+              <p class="menu-item__desc">Frisch gebacken, pur oder mit süßem Belag.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Apfelkuchen mit Streuseln</span>
-              <span class="menu-item__price">4,20 €</span>
-              <p class="menu-item__desc">Elstaräpfel aus dem Alten Land, warm aufgebacken auf Wunsch.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Kürbis- &amp; Plaumentarte <span class="pill pill--season">Saisonal</span></span>
-              <span class="menu-item__price">4,90 €</span>
-              <p class="menu-item__desc">Von September bis November, mit Ingwer und gerösteten Kürbiskernen.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Ganzes Stück / ganzer Kuchen</span>
-              <span class="menu-item__price">ab 26,00 €</span>
-              <p class="menu-item__desc">Auf Bestellung, bitte 24 Stunden vorher anrufen. Gern auch mit Grußkarte.</p>
+              <span class="menu-item__name">Vegane Varianten <span class="pill pill--vegan">vegan</span></span>
+              <p class="menu-item__desc">Kuchen und Gebäck in veganer Variante.</p>
             </div>
           </section>
 
-          <!-- FRÜHSTÜCK -->
-          <section class="menu-section" id="fruehstueck" aria-labelledby="fruehstueck-titel">
+          <!-- SNACKS -->
+          <section class="menu-section" id="snacks" aria-labelledby="snacks-titel">
             <div class="menu-section__head">
-              <h2 id="fruehstueck-titel">Frühstück &amp; herzhaft</h2>
-              <span class="menu-section__note">täglich bis 12 Uhr</span>
+              <h2 id="snacks-titel">Snacks</h2>
+              <span class="menu-section__note">auch zum Mitnehmen</span>
             </div>
 
             <div class="menu-item">
-              <span class="menu-item__name">Tante-Emma-Brötchen</span>
-              <span class="menu-item__price">5,90 €</span>
-              <p class="menu-item__desc">Zwei selbst gebackene Brötchen, Butter, Hausmarmelade, Käse und ein Ei.</p>
+              <span class="menu-item__name">Belegte Brote</span>
+              <p class="menu-item__desc">Frisch belegte Brote und Brötchen, je nach Tag.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Rührei mit Kräutern</span>
-              <span class="menu-item__price">7,40 €</span>
-              <p class="menu-item__desc">Drei Eier, Schnittlauch, Pfeffer — auf Sauerteigbrot serviert.</p>
+              <span class="menu-item__name">Panini klassisch</span>
+              <p class="menu-item__desc">Warm gepresst, mit Käse und Aufschnitt.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Obst &amp; Joghurt <span class="pill pill--vegan">vegan möglich</span></span>
-              <span class="menu-item__price">6,80 €</span>
-              <p class="menu-item__desc">Saisonales Obst, Naturjoghurt oder Haferjoghurt, Honig und Granola.</p>
+              <span class="menu-item__name">Panini vegetarisch</span>
+              <p class="menu-item__desc">Mit Gemüse und Käse belegt und warm gepresst.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Avocado auf Roggenbrot</span>
-              <span class="menu-item__price">8,20 €</span>
-              <p class="menu-item__desc">Mit Feta, Chili, Limette und gerösteten Sesamsamen.</p>
+              <span class="menu-item__name">Panini vegan <span class="pill pill--vegan">vegan</span></span>
+              <p class="menu-item__desc">Mit pflanzlichem Belag, warm gepresst.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Käse- oder Aufschnitt-Teller</span>
-              <span class="menu-item__price">9,50 €</span>
-              <p class="menu-item__desc">Drei Sorten von der Käserei an der Ecke, Cornichons, Senf, Brot.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Suppe des Tages <span class="pill pill--season">Saisonal</span></span>
-              <span class="menu-item__price">6,50 €</span>
-              <p class="menu-item__desc">Mit Brot und einem Löffel Kräuteröl — Anrichtung im Wechsel, immer vegetarisch.</p>
+              <span class="menu-item__name">Desserts <span class="pill pill--season">saisonal</span></span>
+              <p class="menu-item__desc">Kleine süße Begleiter zur Kaffeezeit, wechselnd.</p>
             </div>
           </section>
 
-          <!-- GEBÄCK -->
-          <section class="menu-section" id="gebaeck" aria-labelledby="gebaeck-titel">
+          <!-- GESCHENKE -->
+          <section class="menu-section" id="geschenke" aria-labelledby="geschenke-titel">
             <div class="menu-section__head">
-              <h2 id="gebaeck-titel">Brot &amp; Gebäck</h2>
-              <span class="menu-section__note">solange der Vorrat reicht</span>
-            </div>
-
-            <div class="menu-item">
-              <span class="menu-item__name">Sauerteigbrot, halbes / ganzes</span>
-              <span class="menu-item__price">4,50 € / 8,50 €</span>
-              <p class="menu-item__desc">36 Stunden geführte Teigführung, Mehl aus einer Mühle in Schleswig-Holstein.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Croissant</span>
-              <span class="menu-item__price">2,40 €</span>
-              <p class="menu-item__desc">Butterig, blättrig, morgens um halb acht aus dem Ofen.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Schnecke mit Zimt</span>
-              <span class="menu-item__price">3,20 €</span>
-              <p class="menu-item__desc">Hausgemacht, mit Brauner Zucker und Zimt aus Sri Lanka.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Käsekuchen vom Blech</span>
-              <span class="menu-item__price">4,10 €</span>
-              <p class="menu-item__desc">Quark, Zitrone, ein Hauch Vanille — sonntags fast immer da.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Muffin des Tages <span class="pill pill--vegan">vegan</span></span>
-              <span class="menu-item__price">3,60 €</span>
-              <p class="menu-item__desc">Schokolade, Blaubeere oder Karotte — je nachdem, was in der Küche übrig ist.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Brezel, salzig</span>
-              <span class="menu-item__price">2,90 €</span>
-              <p class="menu-item__desc">Laugengebäck mit grobem Salz, warm aufgebacken.</p>
-            </div>
-          </section>
-
-          <!-- KALT -->
-          <section class="menu-section" id="kalt" aria-labelledby="kalt-titel">
-            <div class="menu-section__head">
-              <h2 id="kalt-titel">Kaltgetränke</h2>
-              <span class="menu-section__note">zum Mitnehmen im Becher</span>
-            </div>
-
-            <div class="menu-item">
-              <span class="menu-item__name">Eiskaffee</span>
-              <span class="menu-item__price">4,40 €</span>
-              <p class="menu-item__desc">Doppelter Espresso über Eis, mit einem Schuss Milch.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Cold Brew <span class="pill pill--new">Neu</span></span>
-              <span class="menu-item__price">4,60 €</span>
-              <p class="menu-item__desc">16 Stunden kalt extrahiert, mild und wenig säuerlich.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Hausgemachte Limonade</span>
-              <span class="menu-item__price">3,80 €</span>
-              <p class="menu-item__desc">Ingwer-Zitrone oder Rhabarber-Minze, wenig Zucker.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Apfelsaft gepresst</span>
-              <span class="menu-item__price">3,40 €</span>
-              <p class="menu-item__desc">Von einem Obstbauern aus der Region, naturtrüb.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Mineralwasser, 0,33 l</span>
-              <span class="menu-item__price">2,80 €</span>
-              <p class="menu-item__desc">Still oder prickelnd, aus der Flasche oder im Glas.</p>
-            </div>
-            <div class="menu-item">
-              <span class="menu-item__name">Wein des Monats, 0,15 l</span>
-              <span class="menu-item__price">4,50 €</span>
-              <p class="menu-item__desc">Ein Weißwein und ein Rotwein von kleinen Gütern — aktuelle Etiketten an der Theke.</p>
-            </div>
-          </section>
-
-          <!-- SCHÖNE DINGE -->
-          <section class="menu-section" id="dinge" aria-labelledby="dinge-titel">
-            <div class="menu-section__head">
-              <h2 id="dinge-titel">Schöne Dinge</h2>
+              <h2 id="geschenke-titel">Geschenke</h2>
               <span class="menu-section__note">zum Mitnehmen</span>
             </div>
 
             <div class="menu-item">
-              <span class="menu-item__name">Kaffee, 250 g Bohnen</span>
-              <span class="menu-item__price">11,50 €</span>
-              <p class="menu-item__desc">Unsere Hausmischung oder die Röstung der Woche — gemahlen auf Wunsch.</p>
+              <span class="menu-item__name">Schmuck</span>
+              <p class="menu-item__desc">Handgemachter Schmuck, mit Liebe für euch ausgesucht.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Hausmarmelade</span>
-              <span class="menu-item__price">5,90 €</span>
-              <p class="menu-item__desc">Aprikose oder Waldbeere, im Glas mit handgeschriebenem Etikett.</p>
+              <span class="menu-item__name">Gutscheine</span>
+              <p class="menu-item__desc">Für Kaffee, Kuchen oder alles Schöne — an der Theke.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Kerze „schöne Dinge“</span>
-              <span class="menu-item__price">16,00 €</span>
-              <p class="menu-item__desc">Sojawachs, Noten von Kaffee und Vanille, in einem wiederverwendbaren Glas.</p>
+              <span class="menu-item__name">Postkarten</span>
+              <p class="menu-item__desc">Karten mit Motiven aus Freiburg und von Tante Emma.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Grußkarten-Set</span>
-              <span class="menu-item__price">7,50 €</span>
-              <p class="menu-item__desc">Fünf Karten mit Aquarellen aus dem Viertel, passende Umschläge inklusive.</p>
+              <span class="menu-item__name">Kalender</span>
+              <p class="menu-item__desc">Schöne Kalender für die Wand oder als Geschenk.</p>
             </div>
             <div class="menu-item">
-              <span class="menu-item__name">Emaillebecher Tante Emma</span>
-              <span class="menu-item__price">18,00 €</span>
-              <p class="menu-item__desc">Weiß mit blauem Rand, spülmaschinenfest, wie im Café verwendet.</p>
+              <span class="menu-item__name">Und vieles mehr</span>
+              <p class="menu-item__desc">Kleine Fundstücke und Dinge zum Verschenken — im Laden entdecken.</p>
             </div>
           </section>
 
           <aside class="allergen-note" aria-label="Hinweis zu Allergenen">
             <strong>Allergene &amp; Unverträglichkeiten:</strong>
-            Alle Preise in Euro inklusive MwSt. Gerne sagen wir euch, was in einem
-            Produkt steckt — sprecht uns an, wir haben die Allergenliste an der Theke
-            liegen. Vegane und glutenfreie Optionen sind mit <span class="pill pill--vegan">vegan</span> gekennzeichnet
-            oder auf Nachfrage möglich. Da alles in einer kleinen Küche entsteht, können
-            Spuren von Nüssen, Gluten und Milch nicht ausgeschlossen werden.
+            Gerne sagen wir euch, was in einem Produkt steckt — sprecht uns an, wir
+            haben die Allergenliste an der Theke liegen. Vegane Optionen sind mit
+            <span class="pill pill--vegan">vegan</span> gekennzeichnet oder auf Nachfrage
+            möglich. Da alles in einer kleinen Küche entsteht, können Spuren von Nüssen,
+            Gluten und Milch nicht ausgeschlossen werden.
           </aside>
 
         </div>
@@ -373,10 +286,10 @@
         <div class="cta-band reveal">
           <div>
             <h2>Lust auf ein Stück davon?</h2>
-            <p>Die Vitrine ist ab 8 Uhr voll — wer etwas bestimmtes möchte, ruft am besten vorher an.</p>
+            <p>Die Vitrine ist ab 9:30 Uhr voll — wer etwas Bestimmtes möchte, ruft am besten vorher an.</p>
           </div>
           <div class="btn-row">
-            <a class="btn btn--light" href="tel:+494012345678">040 1234 5678</a>
+            <a class="btn btn--light" href="tel:+491733426702">0173 3426702</a>
             <a class="btn btn--outline-light" href="besuch-uns.html">Besuch planen</a>
           </div>
         </div>
@@ -393,17 +306,16 @@
           <span class="brand__sub">Kaffeehaus</span>
         </a>
         <p style="margin-top: 1rem; max-width: 34ch;">
-          Kaffee, Kuchen und schöne Dinge — seit 2016 ein Ort für die Nachbarschaft
-          in Hamburg.
+          Kaffee und schöne Dinge — ein Ort für die Nachbarschaft in Freiburg-Herdern.
         </p>
         <div class="social-list">
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Tante Emma auf Instagram">
+          <a href="https://www.instagram.com/tante_emma_freiburg/" target="_blank" rel="noopener" aria-label="Tante Emma auf Instagram">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
           </a>
-          <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Tante Emma auf Facebook">
+          <a href="https://www.facebook.com/tanteemmafreiburg" target="_blank" rel="noopener" aria-label="Tante Emma auf Facebook">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 8h3V4.5h-3A4 4 0 0 0 10 8.5V11H7.5v3.5H10V21h3.5v-6.5H16l.5-3.5h-3V9a1 1 0 0 1 1-1z"/></svg>
           </a>
-          <a href="https://wa.me/494012345678" target="_blank" rel="noopener" aria-label="Tante Emma auf WhatsApp">
+          <a href="https://wa.me/491733426702" target="_blank" rel="noopener" aria-label="Tante Emma auf WhatsApp">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.4 7.8L3 21l1.3-4.4A9 9 0 1 1 21 12z"/><path d="M8.8 9.2c.3-.6.6-.6.9-.6h.6c.2 0 .5 0 .7.5l.7 1.7c.1.3 0 .5-.1.7l-.4.5c-.1.2-.2.3 0 .6.3.4.8 1 1.6 1.6.6.5 1 .7 1.2.8.3.1.4 0 .6-.1l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .6-.4 1.4-1 1.7-.5.3-1.3.4-2.4 0-1.4-.5-3-1.5-4.3-2.9-1.1-1.2-1.9-2.6-2.1-3.7-.2-.9 0-1.5.3-1.8z"/></svg>
           </a>
         </div>
@@ -412,22 +324,21 @@
       <div class="footer-col">
         <h3>Adresse</h3>
         <p>
-          Lindenstraße 12<br>
-          20357 Hamburg<br>
+          Karlstraße 71<br>
+          79104 Freiburg i. Br.<br>
           Deutschland
         </p>
         <p>
-          <a href="tel:+494012345678">040 1234 5678</a><br>
-          <a href="mailto:hallo@tante-emma-cafe.de">hallo@tante-emma-cafe.de</a>
+          <a href="tel:+491733426702">0173 3426702</a><br>
+          <a href="mailto:sarah.eichner@freenet.de">sarah.eichner@freenet.de</a>
         </p>
       </div>
 
       <div class="footer-col">
         <h3>Öffnungszeiten</h3>
         <ul>
-          <li>Mo–Fr · 8:00–18:00</li>
-          <li>Samstag · 9:00–16:00</li>
-          <li>Sonntag · 10:00–15:00</li>
+          <li>Mo–Fr · 9:30–17:00</li>
+          <li>Samstag &amp; Sonntag · geschlossen</li>
           <li>Feiertage · kurzfristig</li>
         </ul>
       </div>
@@ -439,13 +350,13 @@
           <li><a href="speisekarte.html">Speisekarte</a></li>
           <li><a href="ueber-uns.html">Über uns</a></li>
           <li><a href="besuch-uns.html">Besuch uns</a></li>
-          <li><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Lindenstra%C3%9Fe+12%2C+20357+Hamburg" target="_blank" rel="noopener">Anfahrt</a></li>
+          <li><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Karlstra%C3%9Fe+71%2C+79104+Freiburg" target="_blank" rel="noopener">Anfahrt</a></li>
         </ul>
       </div>
     </div>
 
     <div class="wrap footer-bottom">
-      <p style="margin:0;">© <span data-year>2026</span> Tante Emma Kaffeehaus · Platzhaltertexte und -bilder</p>
+      <p style="margin:0;">© <span data-year>2026</span> Tante Emma · Kaffee und schöne Dinge</p>
       <ul>
         <li><a href="impressum.html">Impressum</a></li>
         <li><a href="datenschutz.html">Datenschutz</a></li>
